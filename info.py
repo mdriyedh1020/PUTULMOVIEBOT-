@@ -22,7 +22,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 USERNAME = environ.get('USERNAME', "https://t.me/ya_movies") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002240638120'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/yamovieflix198')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002408526695').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002524720459').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://xiten71277:2HYRNiIlieVUSuUD@cluster0.lnlsfat.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -53,8 +53,8 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "05e78868fac1b80fdba5c6e90f12b622
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'gplinks.com')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "584c87d164e85fa51f16b1144eaaea05def17164")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'bharatlinks.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
-THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "3600"))
+THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "3600"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "bangla", "marathi", "gujarati", "punjabi", "marathi"]
