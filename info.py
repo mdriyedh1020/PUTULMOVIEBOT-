@@ -18,11 +18,11 @@ API_HASH = environ.get('API_HASH', '0ea8b461d518f7ea9acf49d42662d813')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7120801813').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/ya_movies") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002240638120'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/yamovieflix198')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002524720459').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7120801813 7994957335 8186554166').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/RiadMohammad0") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002661574378'))
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+d87-hkXAVR44YWU1')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002562905554').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://xiten71277:2HYRNiIlieVUSuUD@cluster0.lnlsfat.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -31,14 +31,14 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'My_Tg_files')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #----------- There will be channel id add in all these ---------
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002240638120'))  # set shortner log channel
-DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002240638120')) # The movie you upload in it will be deleted from the bot.
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002240638120'))
-auth_channel = environ.get('AUTH_CHANNEL', '-1002614541789')
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1002262253480'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1002240638120') # If anyone sends a request message to your bot, you will get it in this channel.
-MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002443093710')) # 
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002661574378'))  # set shortner log channel
+DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1002661574378')) # The movie you upload in it will be deleted from the bot.
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1002661574378'))
+auth_channel = environ.get('AUTH_CHANNEL', '-1002527032428')
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-4834562021'))
+request_channel = environ.get('REQUEST_CHANNEL', '-1002661574378') # If anyone sends a request message to your bot, you will get it in this channel.
+MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002464773045')) # 
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+d87-hkXAVR44YWU1') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co.com/RPW1QHC/IMG-20241222-191639-961.jpg https://i.ibb.co.com/py43PyP/IMG-20241222-191643-664.jpg https://i.ibb.co.com/BGQZf7Q/IMG-20241222-191707-915.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://i.postimg.cc/hGjSzfGp/IMG-20250531-131222-377.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://i.ibb.co.com/XjpQYw9/01621973961-7-59-06-PM-Dec-22-2024-png.jpg')).split()
